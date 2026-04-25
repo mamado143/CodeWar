@@ -1,0 +1,8 @@
+double SakuraFall(double v) {
+     if (v <= 0) {
+        return 0;
+    } else {
+        double time = 400 / v;
+        return time;
+    }
+}
